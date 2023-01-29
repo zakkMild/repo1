@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="./todo.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- form -->
+      <form class="todo-form">
+        <p class="alert"></p>
+        <h2>To Do</h2>
+        <div class="form-control">
+          <input type="text" id="todo" placeholder="--new task--" />
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </form>
+      <!--list-->
+      <div class="list-container">
+        <div class="todo-list"></div>
+        <!-- clear button -->
+        <button type="button" class="clear-btn">clear items</button>
+      </div>
+    </section>
+    <script src="todo.js"></script>
+  </body>
+</html>
